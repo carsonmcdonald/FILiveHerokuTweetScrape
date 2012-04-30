@@ -8,8 +8,8 @@
 * Create the Heroku setup: 
   ```heroku create --stack cedar```
 * Add your twitter user information:
-  ```heroku config:add TWITTER_USER=<twitter user>
-     heroku config:add TWITTER_PASS=<twitter password>```
+  ```heroku config:add TWITTER_USER=<twitter user>```
+  ```heroku config:add TWITTER_PASS=<twitter password>```
 * Add the mongodb addon: 
   ```heroku addons:add mongolab```
 * Deploy to heroku:
